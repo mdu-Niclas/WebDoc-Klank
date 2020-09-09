@@ -1,8 +1,10 @@
-var para = document.querySelector('p');
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
 
-para.addEventListener('click', updateName);
-
-function updateName() {
-  let name = prompt('Enter a new name');
-  para.textContent = 'Player 1: ' + name;
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
 }

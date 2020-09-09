@@ -9,7 +9,6 @@
 	<meta name="keywords" content="Klank Efterskole, musik, efterskole, Klank, musik, kontaktoplysninger, informationer. ">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-    <script src="js/js.js"></script>  
 	<link rel="icon" type="image/x-icon" href=""/>  
 </head>
 <body>
@@ -49,8 +48,14 @@ Musiklinien har seks ugentlige undervisningstimer, men flere egne prøver og øv
         <span class="border">Klank Efterskole</span>
     </div>
 </div>
-
     
+<p onmouseover="PlaySound('mySound')" 
+    onmouseout="StopSound('mySound')">Hover Over Me To Play</p>
+
+<audio id='mySound' src='http://upload.wikimedia.org/wikipedia/commons/6/6f/Cello_Live_Performance_John_Michel_Tchaikovsky_Violin_Concerto_3rd_MVT_applaused_cut.ogg'/>    
+
+
+<script src="js/js.js"></script>      
 </body>    
     
 </html>
