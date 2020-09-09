@@ -1,0 +1,63 @@
+body, html{
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-family: "noto serif JP", sans-serif;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+h1, h2, h3, h4, h5{
+    font-family: serif;
+    font-size: 30px;
+}
+.bllimg1, .bllimg2 {
+  position:relative;
+  opacity:0.9;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.bllimg1 {
+  background-image:url('../bll/KlankLogo.jpg');
+  min-height:100%;
+}
+.bllimg1 {
+    background-attachment:fixed;
+  }
+.ptekst{
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.ptekst .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+    border: 2px solid;
+    font-size: 15px;
+}
+.bllimg2 {
+    background-image: url(../bll/gulv-banner.jpg);
+    min-height: 100%;
+}
+#containerp1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexh{
+    width: 100%;
+    text-align: center;
+}
+
+.flexp{
+    width: 46%;
+    padding: 0 2%;
+    text-align: justify;
+}
+   
